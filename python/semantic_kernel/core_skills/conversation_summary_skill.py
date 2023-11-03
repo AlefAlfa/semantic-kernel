@@ -20,7 +20,7 @@ class ConversationSummarySkill:
         "BEGIN CONTENT TO SUMMARIZE:\n{{"
         + "$INPUT"
         + "}}\nEND CONTENT TO SUMMARIZE.\nSummarize the conversation in 'CONTENT TO"
-        " SUMMARIZE',            identifying main points of discussion and any"
+        " SUMMARIZE', identifying main points of discussion and any"
         " conclusions that were reached.\nDo not incorporate other general"
         " knowledge.\nSummary is in plain text, in complete sentences, with no markup"
         " or tags.\n\nBEGIN SUMMARY:\n"
